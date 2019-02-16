@@ -111,16 +111,16 @@ img {
   font-weight: lighter;
 }
 
-@media screen and (max-width: 1000px) {
-  .content h1 {
-    padding-top: 30px;
-  }
-}
-
 /*apresentacao*/
 .intro {
   border-bottom: 1px solid #D66D75;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    padding-top: 60px;
+  }
 }
 
 .intro p {
