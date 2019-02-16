@@ -154,6 +154,12 @@ img {
   font-weight: bold;
 }
 
+@media screen and (max-width: 590px) {
+  .info-idioma h2 {
+    padding-top: 20px;
+  }
+}
+
 .info-idioma ul {
   padding-top: 30px;
 }
@@ -178,8 +184,18 @@ img {
   padding-top: 30px;
 }
 
+@media screen and (max-width: 590px) {
+  .idioma ul {
+    padding-top: 10px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .idioma ul li + li {
+    padding-top: 10px;
+  }
+  
+  .info ul {
     padding-top: 10px;
   }
 }
@@ -342,6 +358,12 @@ img {
   padding-bottom: 15px;
 }
 
+@media screen and (max-width: 490px) {
+  .escolaridade ul {
+    max-width: 230px;
+  }
+}
+
 .escolaridade li p:nth-child(1) {
   background-color: #D66D75;
   border-bottom-right-radius: 7px;
@@ -449,7 +471,6 @@ img {
   }
   .interesses ul {
     flex-direction: column;
-    align-items: center;
   }
   .interesses li {
     padding-bottom: 30px;
