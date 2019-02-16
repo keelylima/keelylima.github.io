@@ -1,0 +1,235 @@
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/*header*/
+
+.header {
+  background: #502713;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.menu {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  color: #fff;
+}
+
+.nav ul li + li {
+  padding-left: 30px;
+}
+
+.nav ul li a {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+.nav ul li a:hover {
+  color: #88482D;
+}
+
+.nav ul li a.active {
+  color: #88482D;
+}
+
+/*intro */
+.intro {
+  background: url(../img/intro.jpg);
+  height: 520px;
+  background-position: center;
+}
+@media only screen and (max-width: 560px) {
+  .intro {
+    background: url(../img/intro-r.jpg);
+    background-position: center;
+  }
+}
+
+/*titulo cafe*/
+
+.titulo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 8em;
+  font-family: 'Fjalla One', sans-serif;
+  color: #2d2d2d;
+  letter-spacing: 5px;
+}
+
+
+/*cafes*/
+
+.color-1 {
+  background: #E53F3F;
+}
+
+.color-2 {
+  background: #7F2423;
+}
+
+.color-3 {
+  background: #FF4745;
+}
+
+.color-4 {
+  background: #BF3535;
+}
+
+.color-5 {
+  background: #802C2A;
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.texto {
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1 1 300px;
+  max-width: 500px
+}
+
+.texto h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+.texto p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-flex-2 {
+  padding: 100px 20px 100px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1 1 300px;
+  max-width: 600px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.texto-2 p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4;
+}
+
+.texto-2 h1 {
+  font-size: 5em;
+  font-family: 'Fjalla One', sans-serif;
+  color: #2d2d2d;
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #502711;
+}
+
+.footer-contato {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+
+.contato {
+  padding-right: 50px; 
+}
+
+.contato h2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFF;
+}
+
+.footer-contato p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  color: #FFF;
+}
+
+.anime {
+  opacity: 0;
+  transform: translate3d(-10px, 0px, 0px);
+  transition: 1s;
+  animation-timing-function:ease;
+}
+
+.anime-init {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+
+
+
+
+
+
+
+
