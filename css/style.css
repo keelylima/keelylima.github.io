@@ -194,7 +194,7 @@ img {
   .idioma ul li + li {
     padding-top: 10px;
   }
-  
+
   .info ul {
     padding-top: 10px;
   }
@@ -237,8 +237,18 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 1.125em;
   font-weight: bold;
-  padding-bottom: 15px;
 }
+
+@media screen and (max-width: 660px) {
+  .h2-outras {
+    padding-top: 30px;
+  }
+  .habilidades {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
 
 .habilidades-container p {
   font-weight: lighter;
@@ -261,6 +271,10 @@ img {
 .obs h2 {
   padding-top: 30px;
   padding-bottom: 10px;
+}
+
+.obs ul li + li {
+  padding-top: 10px;
 }
 
 .bar {
