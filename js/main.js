@@ -1,6 +1,5 @@
 /*progress bar - estudar melhor a respeito*/
 const bar = document.querySelectorAll('.progress-bar');
-
 bar.forEach((bar,i) => {
   setTimeout(() => 
              {
