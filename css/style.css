@@ -61,7 +61,7 @@ a:hover {
     color: #DD2743 !important;
 }
 
-a:visited, a:focus, a:active {
+a:visited, a:link  {
     color: #333333;
 }
 
