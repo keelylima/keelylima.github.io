@@ -100,7 +100,7 @@ a:visited {
 
 .container-main-skill {
    margin: 0px 0px 60px 0px;
-   width: 500px; 
+   max-width: 500px; 
 }
 
 .container-skill {
