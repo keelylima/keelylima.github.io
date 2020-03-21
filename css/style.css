@@ -107,6 +107,11 @@ img {
 
 .contato-icones {
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: center;
+    margin: 60px 0px;
+>>>>>>> d1dea4ac8e028f4a7608d49acb1b72b713a9abac
 }
 
 .contato-icones img + img {
