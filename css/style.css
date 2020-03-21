@@ -1,151 +1,118 @@
-* {
-    box-sizing: border-box;
+body, h1, h2, p, ul, li, a, span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    color: #515151;
 }
 
-html, body, h1, h2, h3, span, a, img {
-    padding: 0px;
-    margin: 0px;
+img {
+    display: block;
+    max-width: 100%;
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1196px;
     margin: 0 auto;
     padding: 0px 15px;
 }
 
-.container-title {
-    margin: 60px 0px;
+/* MENU */
+.menu {
+    padding: 80px 0px 200px 0px;
 }
 
-h1 {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 900;
-    font-size: 50px;
-    color: #DD2743;
-    letter-spacing: 1px;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #BABABA;
-    font-size: 24px;
-}
-
-h3 {
-    font-family: 'Roboto Mono', monospace; 
-    font-weight: 900;
-    color: #DD2743;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    max-width: 500px;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.2px;
-    margin-bottom: 30px;
-}
-
-a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-decoration: underline;
-    text-decoration-color: #BABABA;
-}
-
-a:hover {
-    color: #DD2743 !important;
-}
-
-a:visited, a:link  {
-    color: #333333;
-}
-
-.button {
-    background-color: transparent;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    border: 2px solid #333333;
-    box-shadow: none;
-    cursor: pointer;
+.menu ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #333333;
-}
-
-
-.container-redes-sociais {
-    margin: 0px 0px 60px 0px;
-}
-
-.container-icon {
-    display: flex;
-    align-items: center;
-    margin: 20px 0px;
-}
-
-.container-icon img {
-    margin-right: 20px;
-}
-
-.container-main-skill {
-   margin: 0px 0px 60px 0px;
-   max-width: 500px; 
-}
-
-.container-skill {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    align-items: center;
     justify-content: space-between;
+    font-size: 15px;
+    letter-spacing: 1.7px;
 }
 
-.container-skill span {
-    margin-bottom: 12px;
-}
-
-.level-skill {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #BABABA;
-    border-radius: 50%;
-    margin: 0px 10px;
-}
-
-.level-skill-complete {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #DD2743;
-    border-radius: 50%;
-    margin: 0px 10px;
-}
-
-.footer {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #333333;
+.menu-li {
     display: flex;
-    justify-content: center;
-    margin: 50px 0px;
 }
 
-.fa-chevron-left {
-    color: #DD2743;
+.menu-li li + li {
+    margin-left: 20px;
+}
+
+/* INTRO */
+.intro {
+    max-width: 1000px;
+    margin: 0 auto 43px auto;
+}
+
+.intro h1 {
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 83px;
+    text-align: center;
+}
+
+/* SEPARADOR */
+.separador {
+    display: block;
+    height: 50px;
+    width: 2px;
+    background-color: #515151;
+    margin: 0 auto;
+}
+
+/* CONTAINER TRABALHOS */
+.container-trabalho h2 {
+    margin: 43px 0px 80px 0px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    font-weight: normal;
     font-size: 30px;
-    text-align: inherit;
+}
+
+.container-img-first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 80px 0px 30px 0px;
+}
+
+.footer h2 {
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.sobre-mim {
+    max-width: 810px;
+}
+
+.sobre-mim p {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.sobre-mim p + p {
+    margin: 30px 0px;
+}
+
+.contato p {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.contato-icones {
+    display: flex;
+}
+
+.contato-icones img + img {
+    margin-left: 20px;
+}
+
+.copyright {
+    margin-bottom: 80px;
 }
