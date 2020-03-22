@@ -73,6 +73,7 @@ img {
     flex-wrap: wrap;
 }
 
+
 /* FOOTER */
 .footer {
     display: flex;
@@ -109,7 +110,7 @@ img {
     display: flex;
 }
 
-.contato-icones img + img {
+.contato-icones a + a {
     margin-left: 20px;
 }
 
