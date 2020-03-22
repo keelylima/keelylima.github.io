@@ -4,7 +4,6 @@ body, h1, h2, p, ul, li, a, span {
     font-family: 'Raleway', sans-serif;
     list-style: none;
     color: #515151;
-    text-decoration: none;
 }
 
 img {
@@ -74,7 +73,6 @@ img {
     flex-wrap: wrap;
 }
 
-
 /* FOOTER */
 .footer {
     display: flex;
@@ -111,10 +109,29 @@ img {
     display: flex;
 }
 
-.contato-icones a + a {
+.contato-icones img + img {
     margin-left: 20px;
 }
 
 .copyright {
     margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+    .intro h1 {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .contato h2 {
+        margin: 20px 0px 10px 0px;
+    }
+
+    .sobre-mim h2 {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .copyright {
+        margin-top: 80px;
+    }
 }
