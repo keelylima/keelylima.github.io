@@ -71,6 +71,12 @@ img {
     color: #FF2366;
 }
 
+@media (max-width: 570px) {
+    .menu ul li a {
+        padding: 30px 0px;
+    }
+}
+
 header h1 {
     font-family: "Playfair-Regular";
     font-weight: normal;
@@ -93,6 +99,16 @@ header h2 {
     font-weight: lighter;
 }
 
+@media (max-width: 570px) {
+    header h1 {
+        font-size: 3.25em;
+    }
+
+    header h2 {
+        font-size: 2.625em;
+    }
+}
+
 .container-projects {
     margin: 300px 0px 300px 0px;
 }
@@ -103,6 +119,12 @@ header h2 {
     letter-spacing: 0.125em;
     margin-bottom: 100px;
     font-weight: normal;
+}
+
+@media (max-width: 570px) {
+    .container-projects h3 {
+        font-size: 1.625em;
+    }
 }
 
 .container-projects h3:after {
@@ -181,6 +203,7 @@ header h2 {
 
 .container-redes-sociais {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 463px;
 }
@@ -192,6 +215,16 @@ header h2 {
 
 .container-redes-sociais p a:hover {
     color: #FF2366;
+}
+
+@media (max-width: 570px) {
+    .container-redes-sociais {
+        flex-direction: column;
+    }
+
+    .container-redes-sociais p + p {
+        margin-top: 40px;
+    }
 }
 
 
@@ -219,6 +252,7 @@ header h2 {
 
 .process-design {
     display: flex;
+    flex-wrap: wrap;
     padding: 80px 0px 80px 0px;
     max-width: 710px;
     margin: 0 auto;
@@ -234,6 +268,16 @@ header h2 {
     height: 2px;
     margin-top: 5px;
     background: #FFB92D;
+}
+
+@media (max-width: 570px) {
+    .process-design {
+        flex-direction: column;
+    }
+
+    .process-design p + p {
+        margin-top: 40px;
+    }
 }
 
 .img-details {
